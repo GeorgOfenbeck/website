@@ -1,0 +1,31 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+*.uml
+.idea
+/.idea/
+out
+project/project/
+server/logs/application.log
+
+
+#h2o
+h2ologs
+
+# Scala
+target
+*.class
+
+
+.DS_Store
+
+#ansible
+*.retry
+ansible/personal.yaml
+
+#ignore private.conf file
+src/main/resources/private.conf
+/src/main/resources/private.conf
+**/private.conf
+
